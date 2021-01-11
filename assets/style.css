@@ -6,6 +6,7 @@ font-family: 'Questrial', sans-serif; */
     font-size: 16px;
 }
 
+
 .introHead{
     font-size: 25px;
 }
@@ -42,8 +43,13 @@ font-family: 'Questrial', sans-serif; */
 .btn-signUp{
     background: #029D89;
     color: white;
-    width: 10em;
+    width: 20em;
     border-radius: 4px;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 1px black solid;
+    ;
 }
 
 .whiteBG{
