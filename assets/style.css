@@ -83,6 +83,10 @@ font-family: 'Questrial', sans-serif; */
 
 }
 
+.header{
+    margin-top: 14vh;
+}
+
 .perkHead{
     font-size: 25px;
     margin-top: 2em;
@@ -281,7 +285,8 @@ header .overlay {
     } 
 }*/
 .launch{
-    margin-top: 1%;
+   font-size: 130%; 
+   margin-top: 2vh;
 }
 
 .form-why {
