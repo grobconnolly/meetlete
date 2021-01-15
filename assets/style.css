@@ -29,12 +29,21 @@ font-family: 'Questrial', sans-serif; */
     padding-top: 3%;
 }
 
-.btn-signIn{
+.btn-investors{
     background:#029D89;
     color: white;
+    width: 100px;
     margin-right: 4vw;
     border-radius: 4px;
 }
+.btn-talent{
+    background:#029D89;
+    color: white;
+    width: 100px;
+    margin-right: 2vw;
+    border-radius: 4px;
+}
+
 
 
 #typeForm{
