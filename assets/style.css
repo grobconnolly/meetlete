@@ -36,11 +36,25 @@ font-family: 'Questrial', sans-serif; */
     border-radius: 4px;
 }
 
+
+#typeForm{
+    margin-top: 30vh;
+}
+
 .grayBG{
     background: rgb(233, 233, 233);
-    padding-top: 8vh;
-    padding-bottom: 1vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     border-radius: 20px;
+}
+
+.launch {
+    background-color:white;
+    border-radius: 40px;
+}
+
+.fa-heart{
+    color: red;
 }
 
 .btn-signUp{
