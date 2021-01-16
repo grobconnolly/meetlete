@@ -10,6 +10,10 @@ font-family: 'Questrial', sans-serif; */
     width: 100vw;
 }
 
+.navbar-brand{
+    margin-left: 2vw;
+}
+
 .introHead{
     font-size: 25px;
 }
@@ -33,7 +37,7 @@ font-family: 'Questrial', sans-serif; */
     background:#029D89;
     color: white;
     width: 100px;
-    margin-right: 4vw;
+    margin-right: 2vw;
     border-radius: 4px;
 }
 .btn-talent{
@@ -44,7 +48,13 @@ font-family: 'Questrial', sans-serif; */
     border-radius: 4px;
 }
 
-
+.btn-contest{
+    background:#029D89;
+    color: white;
+    width: 100px;
+    margin-right: 2vw;
+    border-radius: 4px;
+}
 
 #typeForm{
     margin-top: 30vh;
