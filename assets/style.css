@@ -2,12 +2,15 @@
 font-family: 'Questrial', sans-serif; */
 
 *{
-    font-family: 'Questrial', sans-serif;
-    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .videoHome{
     width: 100vw;
+}
+
+.headingText{
+    font-weight: 200;
 }
 
 .navbar-brand{
@@ -70,6 +73,7 @@ font-family: 'Questrial', sans-serif; */
 .launch {
     background-color:white;
     border-radius: 40px;
+    font-weight: 100;
 }
 
 .fa-heart{
@@ -85,6 +89,11 @@ font-family: 'Questrial', sans-serif; */
     padding-bottom: 1%;
     border: 1px black solid;
     ;
+}
+
+.soon{
+    word-spacing: 3px;
+    font: 200;
 }
 
 .whiteBG{
