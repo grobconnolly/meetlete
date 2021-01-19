@@ -141,6 +141,24 @@ font-family: 'Questrial', sans-serif; */
     margin-bottom: 3vh;
 }
 
+.sign-up-form1{
+    background-color: rgb(101, 101, 101);
+    height: 40vh;
+}
+
+.sign-up-form2{
+    background-color: #029D89;
+    height: 40vh;
+}
+
+.signUpText{
+    color: white;
+    font-size: 20px;
+    margin-top: .7em;
+    font-weight: 700;
+    outline:black 30px;
+}
+
 @media only screen and (max-width: 428px){
 
  }
@@ -330,6 +348,11 @@ header .overlay {
 background-color: rgba(116, 134, 236, 0.958);
 } 
 
+.signUpForm{
+    width: 15vw;
+    height: 5vh;
+    margin: 3% 0 3% 0;
+}
 
 
 .card {
