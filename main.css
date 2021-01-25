@@ -368,7 +368,7 @@ header .header-subtitle {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 546px) {
   .button-early-access {
     background: white !important;
     color: black !important;
