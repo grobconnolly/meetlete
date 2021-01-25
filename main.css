@@ -1,6 +1,3 @@
-body {
-  font-family: "Khula", sans-serif;
-}
 html,
 body {
   overflow-x: hidden;
@@ -369,15 +366,19 @@ header .header-subtitle {
 }
 
 @media screen and (max-width: 546px) {
-  .button-early-access {
+  .go-white {
     background: white !important;
     color: black !important;
   }
 }
 
 @media screen and (max-width: 324px) {
-  .button-early-access {
-    background: linear-gradient(266.81deg, #009ebe -3.26%, #049c69 92.97%) !important;
+  .go-white {
+    background: linear-gradient(
+      266.81deg,
+      #009ebe -3.26%,
+      #049c69 92.97%
+    ) !important;
     border-radius: 27px;
     font-weight: bold;
     color: white;
