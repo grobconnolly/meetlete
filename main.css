@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: black;
+}
+
 :root {
   --rubik-family: "Rubik", sans-serif;
 }
@@ -52,6 +56,10 @@ header .header-subtitle {
   font-weight: bold;
   color: white;
   padding: 11px 35px;
+}
+
+.button-early-access:hover {
+  color: rgba(0,0,0,0.5) !important;
 }
 
 /* PERKS */
