@@ -50,10 +50,8 @@ header .header-subtitle {
   background: linear-gradient(266.81deg, #009ebe -3.26%, #049c69 92.97%);
   border-radius: 27px;
   font-weight: bold;
-  /* font-size: 24px; */
-  line-height: 29px;
   color: white;
-  padding: 11px 35px 11px 44px;
+  padding: 11px 35px;
 }
 
 /* PERKS */
