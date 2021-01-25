@@ -59,7 +59,7 @@ header .header-subtitle {
 }
 
 .button-early-access:hover {
-  color: rgba(0,0,0,0.5) !important;
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 /* PERKS */
@@ -229,13 +229,11 @@ header .header-subtitle {
     width: 100% !important;
   }
 
-
   .perks-list {
     display: flex !important;
     justify-content: space-around !important;
     align-items: flex-end !important;
   }
-
 }
 
 @media screen and (max-width: 770px) {
@@ -367,5 +365,23 @@ header .header-subtitle {
   }
   .container-fluid {
     padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .button-early-access {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .button-early-access {
+    background: linear-gradient(266.81deg, #009ebe -3.26%, #049c69 92.97%) !important;
+    border-radius: 27px;
+    font-weight: bold;
+    color: white;
+    padding: 11px 35px;
+    box-shadow: none;
   }
 }

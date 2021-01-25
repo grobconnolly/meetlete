@@ -24,8 +24,8 @@
   font-style: normal;
   font-weight: 300;
   font-size: 32px;
-  line-height: 38px;
-  color: #b6b6b6;
+  /* line-height: 38px; */
+  color: #b6b6b6 !important;
   opacity: 1; /* Firefox */
 }
 
@@ -34,8 +34,8 @@
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 38px;
-  color: #b6b6b6;
+  /* line-height: 38px; */
+  color: #b6b6b6 !important;
 }
 
 ::-ms-input-placeholder {
@@ -43,8 +43,8 @@
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 38px;
-  color: #b6b6b6;
+  /* line-height: 38px; */
+  color: #b6b6b6 !important;
 }
 
 .earlyAccessSection .earlyTitle {
