@@ -1,2 +1,1 @@
-# meetlete
-meetlete.com
+# Meetlete
