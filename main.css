@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: black;
+}
+
 :root {
   --rubik-family: "Rubik", sans-serif;
 }
@@ -50,10 +54,12 @@ header .header-subtitle {
   background: linear-gradient(266.81deg, #009ebe -3.26%, #049c69 92.97%);
   border-radius: 27px;
   font-weight: bold;
-  /* font-size: 24px; */
-  line-height: 29px;
   color: white;
-  padding: 11px 35px 11px 44px;
+  padding: 11px 35px;
+}
+
+.button-early-access:hover {
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 /* PERKS */
@@ -223,13 +229,11 @@ header .header-subtitle {
     width: 100% !important;
   }
 
-
   .perks-list {
     display: flex !important;
     justify-content: space-around !important;
     align-items: flex-end !important;
   }
-
 }
 
 @media screen and (max-width: 770px) {
@@ -308,7 +312,7 @@ header .header-subtitle {
   }
 
   .chooseTab .row {
-    height: 111px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,5 +365,23 @@ header .header-subtitle {
   }
   .container-fluid {
     padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .button-early-access {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .button-early-access {
+    background: linear-gradient(266.81deg, #009ebe -3.26%, #049c69 92.97%) !important;
+    border-radius: 27px;
+    font-weight: bold;
+    color: white;
+    padding: 11px 35px;
+    box-shadow: none;
   }
 }
