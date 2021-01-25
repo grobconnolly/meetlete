@@ -93,6 +93,10 @@
   max-width: 319px;
 }
 
+.contestText{
+  padding-top: 8%;
+}
+
 .forTalent {
   border-radius: 0;
   font-style: normal;
