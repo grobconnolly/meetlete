@@ -102,7 +102,7 @@
             
               
         
-                <form>
+                <form name="contest-contact-form">
                   <div class="form-group">
                     <h1 class="earlyTitle w-100 text-center contestText">
                       Enter our contest, and win a free Meetlete with an athlete of your choice!
@@ -112,6 +112,7 @@
                       class="form-control p-20"
                       id="nameContest"
                       placeholder="First Name"
+                      name="fname_contest"
                     />
                   </div>
 
@@ -121,11 +122,13 @@
                       class="form-control p-20"
                       id="emailContest"
                       placeholder="Please provide your email address?"
+                      name="email_contest"
                     />
                   </div>
 
                   <div class="form-group">
                     <input
+                      name="favath_contest"
                       type="text"
                       class="form-control p-20"
                       id="athleteContest"
@@ -135,6 +138,7 @@
 
                   <div class="form-group">
                     <input
+                      name="city_contest"
                       type="text"
                       class="form-control p-20"
                       id="cityContest"
@@ -325,6 +329,7 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
  
+    <script src="contact.js"></script>
  <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
