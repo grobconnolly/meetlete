@@ -19,6 +19,39 @@
   font-size: 1.7em;
 }
 
+.thankYouBg{
+  background-color: rgba(206, 226, 225, 0.981);
+  border: solid 1px lightgray;
+  height: 100%;
+  margin-top: 10vh;
+  font-style: normal;
+  padding-top: 3%;
+  padding-bottom: 3%;
+ 
+}
+
+.thank{
+  font-size: 4vw;
+}
+
+.secondaryText{
+padding-top: 3%;
+font-size: 3vw;
+}
+
+.secondaryFan{
+  padding-top: 3%;
+font-size: 3vw;
+}
+
+
+.centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* PLACEHOLDER */
 
 ::placeholder {
