@@ -3,7 +3,7 @@
 }
 
 .aboutUs {
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .form-group {
@@ -52,6 +52,10 @@ font-size: 3vw;
   width: 50%;
 }
 
+.phoneMeetlete{
+  width: 50vw;
+}
+
 /* PLACEHOLDER */
 
 ::placeholder {
@@ -90,6 +94,31 @@ font-size: 3vw;
   margin-bottom: 29px;
   color: #000000;
   /* text-align: center; */
+}
+
+.testTitle {
+  margin-top: 10px;
+  text-align: start;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 38px;
+  max-width: 726px;
+  margin-bottom: 70px;
+  color: #000000;
+
+  /* text-align: center; */
+}
+.testimonialTitle{
+  margin-top: 70px;
+  text-align: start;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 38px;
+  max-width: 726px;
+  margin-bottom: 0px;
+ color: #000000;
 }
 
 .early {
