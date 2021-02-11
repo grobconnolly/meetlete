@@ -19,6 +19,16 @@
   font-size: 1.7em;
 }
 
+.joinMain{
+font-size: 25px; 
+}
+
+.joinSub{
+  font-size: 20px;
+  margin-bottom: 8% 
+  }
+  
+
 .thankYouBg{
   background-color: rgba(206, 226, 225, 0.981);
   border: solid 1px lightgray;
