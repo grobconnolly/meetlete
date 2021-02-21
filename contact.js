@@ -1,5 +1,6 @@
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbwDDiumWL0Y6tPhsAQXzdDQ1QUE-FYCrlLUJjWOPV9Sg8pX0Icn/exec";
+  
 
 const fanForm = document.forms["fan-contact-form"];
 

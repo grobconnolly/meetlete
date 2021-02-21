@@ -37,16 +37,22 @@ font-size: 25px;
   font-style: normal;
   padding-top: 3%;
   padding-bottom: 3%;
+  border-radius: 10px;
  
 }
 
+.twitter-follow-button{
+  margin-top: 10%;
+}
+
 .thank{
-  font-size: 4vw;
+  font-size: 15px;
+  font-style: italic;
 }
 
 .secondaryText{
 padding-top: 3%;
-font-size: 3vw;
+font-size: 10px;
 }
 
 .secondaryFan{
@@ -243,4 +249,17 @@ form {
 
 .tabsForm > .col {
     padding: 0;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .thank{
+    font-size: 25px;
+    font-style: italic;
+  }
+  
+  .secondaryText{
+  padding-top: 3%;
+  font-size: 14px;
+  }
 }
