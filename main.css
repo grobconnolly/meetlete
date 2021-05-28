@@ -16,6 +16,21 @@ a {
 
 }
 
+
+
+.footer {
+  position: relative;
+  margin-top: 30%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+
+
 .markText{
   font-size: 14px;
   color: rgb(109, 109, 109);
