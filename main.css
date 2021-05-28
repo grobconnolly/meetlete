@@ -11,7 +11,25 @@ a {
   --rubik-family: "Rubik", sans-serif;
 }
 
+.videoSection{
+  padding-top: 3em;
 
+}
+
+.markText{
+  font-size: 14px;
+  color: rgb(109, 109, 109);
+}
+
+.markText2{
+  font-size: 14px;
+  color: rgb(109, 109, 109);
+}
+
+.whiteBG{
+  background: lightgrey;
+  height: 100em;
+}
 
 
 /* HEADER */
