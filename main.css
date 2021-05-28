@@ -236,6 +236,19 @@ header .header-subtitle {
   }
 }
 
+
+
+@media screen and (min-width: 575px){
+  
+  .markText{
+    padding-top: 5em;
+  }
+
+}
+
+
+
+
 @media screen and (max-width: 1000px) {
   .left-list span,
   .right-list span {
