@@ -12,7 +12,7 @@ a {
 }
 
 .videoSection{
-  padding-top: 3em;
+  padding-top: 5em;
 
 }
 
@@ -35,6 +35,18 @@ a {
   font-size: 14px;
   color: rgb(109, 109, 109);
 }
+
+.tevonText{
+  margin-top: 5em;
+  font-size: 16px;
+  color: rgb(109, 109, 109);
+}
+
+@media only screen and (max-width: 600px) {
+  .tevonText {
+    margin-top: 2em;
+    font-size: 16px;
+  }
 
 .markText2{
   font-size: 14px;
