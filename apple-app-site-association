@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "8D8PW9FV6S.com.meetlete.app",
+                "paths": [ "*"]
+            },
+        ]
+    }
+}
