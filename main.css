@@ -61,7 +61,9 @@ a {
 .legalSpaceLeft{
   padding-left: 20px;
 }
-
+.legalSpaceMoreLeft{
+  padding-left:50px;
+}
 
 .meetleteTermsHead1{
   font-size: 2em;
