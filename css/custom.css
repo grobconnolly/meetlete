@@ -910,6 +910,9 @@ video#jeohome {
     z-index: -1;
     border-radius: 30px;
 }
+.hero-small.home-hero {
+    margin-top: 0;
+}
 
 }
 
