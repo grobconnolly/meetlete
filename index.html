@@ -14,7 +14,7 @@
 	<link rel="shortcut icon" type="image/jpg" href="./images/flavicon.png" />
 	<!--=================== custom style css ================================== -->
 
-	<link rel="stylesheet" type="text/css" href="css/custom.css?ver=1.0.9">
+	<link rel="stylesheet" type="text/css" href="css/custom.css?ver=1.b">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 		  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RH1H0628FB"></script>
 		  <script>
@@ -85,21 +85,26 @@
 						<div class="yellowpatt"></div>
 						<div class="dotpatt"></div>
 						<div class="inner-video">
-							<div class="frameiphn"></div>
-							<video id="jeohome" width="300" height="700" autoplay  muted defaultMuted playsinline poster="./images/postervideo.png" loop="3">
+							<div class="namecaller">
+								<p>Joe Buck is calling</p>
+								<button id="vidbutton">Play</button> 
+							</div>
+							<div class="frameiphn"></div> 
+							<!-- autoplay  muted defaultMuted att for mute-autoplay -->
+							<video id="jeohome" width="300" height="700"  playsinline poster="./images/postervideo.png" loop="3">
 							  <source src="images/JoeBuckMusic.mov" type="video/mp4">
 							  Your browser does not support the video tag.
 							</video>
+							
 						</div>
 					</div>
 				</div>
 				<div class="col-md-5 hero-content">
-					<h1>
-					Make a <span>memorable</span> <span class="for-mb"><br></span> <span>conversation</span> with your favorite athlete!
+					<h1>					
+					Create <span>lifelong </span> <span class="for-mb"><br></span> <span>memories</span> with your favorite athletes!
 					</h1>
-					<p>Meetlete gives fans the ability to meet their favorite athletes for a 4-minutes video call through our incredible app! </p>
-					<p>What if you could have a once-in-a-lifetime conversation with one of your favorite athletes? Soon you will be able to!</p>
-					<a href="./athletes.html" class="meetbutton">GET MY EARLY ACCESS</a>
+					<p>Meetlete gives fans the ability to have a real video conversation with their favorite athletes, all done through the Meetlete app.</p>
+					<a href="./athletes.html" class="meetbutton">Count Me In!</a>
 				</div>
 				
 			</div>
@@ -118,18 +123,18 @@
 					<img src="images/PerkImages.png" alt="Perk">
 				</div>
 				<div class="col-md-6 perk-content">
-					<h2>Perks of Meetlete</h2>
+					<h2>Why Meetlete?</h2>
 					<div class="perklist">
-						<p><img src="images/shield.png" alt=">>"> Calls are on a private & secure platform.</p>
-						<p><img src="images/calendar.png" alt=">>"> Have a live face-to-face conversation, not a recorded message.</p>
-						<p><img src="images/user.png" alt=">>"> Video calls take place through our amazing app. </p>
-						<p><img src="images/time.png" alt=">>"> Make lifetime memories.</p>
-						<p><img src="images/handheart.png" alt=">>"> A portion of each goes to a charity.</p>
+						<p><img src="images/shield.png" alt=">>"> Engage in a meaningful conversation with unprecedented access to your favorite athletes!</p>
+						<p><img src="images/calendar.png" alt=">>"> No prerecorded or generic messages, ever!</p>
+						<p><img src="images/user.png" alt=">>">4-minute video calls conducted on a private & secure platform through the one-of-a-kind Meetlete app! </p>
+						<p><img src="images/time.png" alt=">>"> Share the recording with your friends and family!*</p>
+						<p><img src="images/handheart.png" alt=">>"> Part of each calls proceeds go to your athlete’s favorite charity!</p>
 						<p><img src="images/usersafe.png" alt=">>"> Share the recording of your experience with your friends and family.</p>
-						<p><img src="images/user.png" alt=">>"> Recordings are shared if the athlete approves the recording, not guaranteed</p>
+						<!-- <p><img src="images/user.png" alt=">>">All recordings must be approved by athlete/personality</p> -->
 					</div>
 					
-					<a href="./athletes.html" class="meetbutton">GET MY EARLY ACCESS</a>
+					<a href="./athletes.html" class="meetbutton">Count Me In!</a>
 				</div>
 				
 			</div>
@@ -148,12 +153,10 @@
 				</div>
 				<div class="col-md-4 about-content">
 					<h2>About Meetlete</h2>		
-					<p>Meetlete was created by two sports fans who wanted the opportunity to actually meet their favorite athletes or sports personalities. </p>
-					<p>They felt it was a problem worth solving, and they built Meetlete just for you! </p>			
+					<p>Meetlete was created by two avid sports fans who’ve dreamed of bridging the gap between fans and the sports icons they love to root for!</p>
+					<p>By creating Meetlete, they have made it easier than ever to connect with your biggest sports heroes! </p>	
 				</div>
-
-				
-				
+								
 			</div>
 		</div>
 	</section>
@@ -180,6 +183,7 @@
 						<ul>
 						  <li><a href="./index.html">Home</a></li>
 			              <li><a href="./about-us.html">About</a></li>
+			              <li><a href="./in-the-news.html">News</a></li>
 			              <li><a href="./fan.html">Fans</a></li>   
 			              <li><a href="./athletes.html">Athletes </a></li>	 	
 			              <li><a href="./athletes-term.html">Athletes terms</a></li> 
@@ -200,3 +204,19 @@
 	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/custom.js?ver=1"></script>
+
+	<script> 
+	var ppbutton = document.getElementById("vidbutton");
+	ppbutton.addEventListener("click", playPause);
+	myVideo = document.getElementById("jeohome");
+	function playPause() { 
+	    if (myVideo.paused) {
+	        myVideo.play();
+	        ppbutton.innerHTML = "Pause";
+	        }
+	    else  {
+	        myVideo.pause(); 
+	        ppbutton.innerHTML = "Play";
+	        }
+	} 
+	</script> 
