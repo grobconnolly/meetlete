@@ -87,7 +87,7 @@
 						<div class="inner-video">
 							<div class="namecaller">
 								<p>Joe Buck is calling</p>
-								<button id="vidbutton">Pause</button> 
+								<button id="vidbutton">Play</button> 
 							</div>
 							<div class="frameiphn"></div> 
 							<!-- autoplay  muted defaultMuted att for mute-autoplay -->
@@ -212,11 +212,11 @@
 	function playPause() { 
 	    if (myVideo.paused) {
 	        myVideo.play();
-	        ppbutton.innerHTML = "Play";
+	        ppbutton.innerHTML = "Pause";
 	        }
 	    else  {
 	        myVideo.pause(); 
-	        ppbutton.innerHTML = "Pause";
+	        ppbutton.innerHTML = "Play";
 	        }
 	} 
 	</script> 
