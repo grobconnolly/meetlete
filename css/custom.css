@@ -712,6 +712,13 @@ section.term-area.meetlete-section .container div * {
     color: #4F4F4F;
     margin-bottom: 20px;
 }
+section.term-area.meetlete-section .container div strong,
+section.term-area.meetlete-section .container div b {
+    font-weight: 700;
+}
+section.term-area.meetlete-section .container div a span {
+    color: #06c;
+}
 
 /*======================================        Mobile responsive css     ===========================*/
 
