@@ -1078,4 +1078,89 @@ video#jeohome {
     .footer-area ul li{
         width: 100%
     }
+    body .btngroup-small .meetbutton{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tag-small {
+        text-align: left;
+    }
+    .cta-brit{
+        padding: 15px 0;
+        /* box-shadow: none; */
+        border-radius: 16px;
+    }
+    .cta-content3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    body .cta-content3 .meetbutton{
+        width: 100%;
+    }
+    .cta-brittain,.review-area{
+        padding:40px 20px;
+    }
+    .review-area h2 {
+        margin-bottom: 10px;
+    }
+    .waftext p {
+        font-size: 17px;
+        text-align: left;
+        line-height: 26px;
+        margin: 0;
+    }
+    .tag-small p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .review-talent {
+        padding: 16px;
+    }
+    img.img-user {
+        left: 16px;
+        top: 10px;
+    }
+    .review-talent h3{
+        position: absolute;
+        left: 90px;
+        font-size: 16px;
+        top: 10px;
+    }
+    .reviewstar {
+        position: absolute;
+        left: 90px;
+        top: 40px;
+    }
+    .reviewstar {
+        margin-bottom: 20px;
+        position: absolute;
+        left: 90px;
+        top: 40px;
+    }
+    .review-talent p{
+        margin-top: 80px;
+        font-size: 16px;
+    }
+    .cta-content2 p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .btngroup-small.visible-xs {
+        margin-top: 30px;
+    }
+   .hero-content.hero-content-brit p {
+        font-size: 18px;
+        line-height: 29px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .hero-content.hero-content-brit h1 {
+        text-align: left;
+    }
+    .tag-small {
+        margin-top: 0px;
+    }
+    section.review-area.meetlete-section {
+        padding-top: 0;
+    }
 }
