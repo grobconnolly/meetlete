@@ -234,6 +234,9 @@ video#jeohome {
     z-index: -1;
     border-radius: 50px;
 }
+.brittain video#jeohome{
+    object-fit: cover;
+}
 .namecaller {
     position: absolute;
     bottom: 50px;
