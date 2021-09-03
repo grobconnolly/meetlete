@@ -106,7 +106,7 @@ nav.mynav .navbar-collapse {
 /*===========Header area =====================*/
 
 .hero-banner {
-    background: url(../images/VectorT.png);
+    background-image: url(../images/VectorT.png);
         background-position-x: 0%;
         background-position-y: 0%;
         background-repeat: repeat;
@@ -137,7 +137,7 @@ nav.mynav .navbar-collapse {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 32px;
     color: #4F4F4F;
     margin-bottom: 60px;
 }
@@ -161,13 +161,48 @@ body .meetbutton {
     text-transform: uppercase;
     border: none;
 }
+body .btngroup-small .meetbutton {
+    width: auto;
+    height: auto;
+    background: linear-gradient(
+266.81deg
+, #009EBE -3.26%, #049C69 92.97%);
+    border-radius: 50px;
+   color: #FFFFFF;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+    text-transform: none;
+}
+body .btngroup-small .meetbutton.border {
+    background: transparent;
+    border: 2px solid #17A5B3;
+    float: right;
+    background: -webkit-linear-gradient(#36AF85, #17A5B3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tag-small span {
+    margin-right: 10px;
+}
+
+.tag-small {
+    margin-top: 40px;
+}
 .hero-small{
     float: right;
 }
 .hero-small.home-hero{
     margin-top: 60px;
 }
-
+.waftext p {
+    font-size: 20px;
+}
+.brittain.hero-data .hero-content {
+    padding-top: 100px;
+}
+.brittain.hero-data .hero-small {
+    margin-top: 30px;
+}
 /*=========== Video manage =====================*/
 
 .video-joe {
@@ -671,7 +706,70 @@ section.thanks {
     text-align: left;
 }
 
+/* ======  brittainbrown page */
+.review-talent {
+    background: #F2F2F2;
+    border-radius: 24px;
+    padding: 30px 30px 30px 130px;
+}
+.review-talent  h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #313131;
+    margin-bottom: 10px;
+}
+.reviewstar {
+    margin-bottom: 20px;
+}
+.review-talent  p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+.review-talent  h3 span{
+    font-weight: 400;
+}
+img.img-user {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+.review-area h2{
+    margin-bottom: 40px;
+}
 
+.cta-content2 p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+}
+.cta-brit {
+    background: linear-gradient(95.59deg, #36AF85 0%, #17A5B3 100%);
+    border-radius: 24px;
+    padding: 50px 40px;
+
+box-shadow: 0px 38px 147px rgba(0, 0, 0, 0.09), 0px 13.8706px 53.6574px rgba(0, 0, 0, 0.227694), 0px 6.73393px 26.0497px rgba(0, 0, 0, 0.183576), 0px 3.3011px 12.77px rgba(0, 0, 0, 0.146424), 0px 1.30526px 5.04929px rgba(0, 0, 0, 0.102306);
+}
+.cta-content3{
+    text-align: right;
+}
+body .cta-content3 .meetbutton {
+    width: auto;
+    height: auto;
+    background:transparent;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+    text-transform: none;
+    border: 2px solid #fff;
+}
 /*=========== footer area =====================*/
 .footer-area  address{
     font-style: normal;
