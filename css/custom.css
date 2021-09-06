@@ -234,7 +234,7 @@ video#jeohome {
     z-index: -1;
     border-radius: 50px;
 }
-.brittain video#jeohome{
+.brittain video#jeohome,.milton video#jeohome{
     object-fit: cover;
 }
 .namecaller {
