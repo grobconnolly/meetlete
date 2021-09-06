@@ -803,6 +803,9 @@ body .cta-content3 .meetbutton {
 .footer-area ul li a:hover{
     opacity: 0.8;
 }
+section.hero-data.hero-banner.milton {
+    padding-bottom: 80px;
+}
 /*======================================      term css     ===========================*/
 section.term-area.meetlete-section div.row{
     max-width: 900px;
