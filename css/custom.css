@@ -237,6 +237,9 @@ video#jeohome {
 .brittain video#jeohome,.milton video#jeohome{
     object-fit: cover;
 }
+.ytvideo iframe {
+    max-width: 100%;
+}
 .namecaller {
     position: absolute;
     bottom: 50px;
