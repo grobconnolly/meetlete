@@ -104,7 +104,7 @@ nav.mynav .navbar-collapse {
     box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
 }
 nav.mynav ul.navbar-nav li a .glyphicon {
-    font-size: 16px;
+    font-size: 60%;
     font-weight: normal;
 }
 nav.mynav ul.childmenu {
@@ -884,7 +884,9 @@ section.term-area.meetlete-section .container div a span {
 }
 
 @media screen and (max-width: 767px) {
-    
+nav.mynav ul.childmenu {
+    position: relative;
+}
 .top-bar {
     background: rgb(255, 255, 255,1);
 }
@@ -1116,6 +1118,9 @@ video#jeohome {
 }
 
 @media screen and (max-width: 560px) {
+    nav.mynav ul.childmenu {
+        position: relative;
+    }
     .hero-small.home-hero {
         padding-bottom: 0px;
         background-position: 0px -170px;
