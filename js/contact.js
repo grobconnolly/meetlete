@@ -20,7 +20,8 @@ if (fanForm) {
     const formData = new FormData(fanForm);
     formData.append("type", "fan");
     fetch(scriptURL, { method: "POST", body: formData })
-      .then((response) => window.location.href = "fan-thanks.html")
+      // .then((response) => window.location.href = "fan-thanks.html")
+      .then((response) => window.location.href = "https://apps.apple.com/us/app/meetlete/id1569033372")
       .catch((error) => console.error("Error!", error.message));
   });
 }
@@ -66,7 +67,8 @@ if (talentForm) {
     const formData = new FormData(talentForm);
     formData.append("type", "talent");
     fetch(scriptURL, { method: "POST", body: formData })
-    .then((response) => window.location.href = "athletes-thanks.html")
+    // .then((response) => window.location.href = "athletes-thanks.html")
+    .then((response) => window.location.href = "https://apps.apple.com/us/app/meetlete/id1569033372")
       .catch((error) => console.error("Error!", error.message));
   });
 }
