@@ -103,6 +103,10 @@ nav.mynav .navbar-collapse {
     z-index: 9;
     box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
 }
+nav.mynav ul.navbar-nav li a .glyphicon {
+    font-size: 16px;
+    font-weight: normal;
+}
 nav.mynav ul.childmenu {
     position: absolute;
     left: 0;
