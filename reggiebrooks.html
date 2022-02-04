@@ -100,7 +100,7 @@
 								<!-- <p>Joe Buck is calling</p> -->
 								<button id="vidbutton">Play</button> 
 							</div>
-							<div class="frameiphn"></div> 
+							<!-- <div class="frameiphn"></div>  -->
 							<!-- autoplay  muted defaultMuted att for mute-autoplay -->
 							<video id="jeohome" width="300" height="700"  playsinline poster="./images/reggie.jpg" >
 							  <source src="images/ReggieBrooks.mp4" type="video/mp4">
@@ -113,13 +113,18 @@
 				</div>
 				<div class="col-md-5 hero-content hero-content-reggie">
 					<div class="rating">
-						<h5><img src="images/Star.png" alt="Rating" width="12"> 4.7 <span>47 Reviews</span></h5>
+						<h5><img src="images/Star.png" alt="Rating" width="12"> 5.0  <span>7 Reviews</span></h5>
 					</div>
+					
 					<h1>
-						  <span>Reggie brooks</span> 
+						  <span>Reggie brooks</span> <br>
+						  Notre Dame | Washington Football Team
+
 					</h1>
-					<small style="font-size: 16px;font-weight: 600;display:block;line-height: 16px ">24 hours delivery available</small>
-					<p>Please no crypto related requests!</p>
+					<!-- <small style="font-size: 16px;font-weight: 600;display:block;line-height: 16px ">24 hours delivery available</small> -->
+					
+					<p>Reggie Brooks is a legendary running back for the University of Notre Dame. He has been a part of some fantastic teams under the great Lou Holtz. Book Reggie for the opportunity to speak with him about playing for Lou Holtz, The Snow Bowl, or The Unconscious Touchdown!</p>
+					<p>A portion of every booked Meetlete will benefit the Holtz’s Heroes Foundation.</p>
 
 					<div class="chose-option">
 						<h3>Choose an option</h3>
@@ -132,8 +137,8 @@
 								  <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
 								  <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
 								</svg>
-									Personal use <span>$550</span></h4>
-								<p>Personalized video for you or someone else</p>
+									Meetlete Fan Call <span>$40</span></h4>
+								<p>1-on-1, 4-minute virtual meet and greet for you or someone else.</p>
 							</li>
 							<li id="dollarTen">
 								<h4>
@@ -141,13 +146,13 @@
 									  <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
 									  <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
 									</svg>
-									For business <span>$10,000</span></h4>
-								<p>Engaging video content for your company, customers, or employees</p>
+									For business <span>$1000</span></h4>
+								<p>Video call for your business purposes, customers, employees, or marketing.</p>
 							</li>
 						</ul>
 					</div>
 					<div class="btngroup-small ">
-						<a class="meetbutton" style="display: block;" href="https://buy.stripe.com/9AQ9CT7kG9hi8Ra9AI" target="_blank">Book me here <span class="pricechange">$550</span></a>
+						<a class="meetbutton" id="Priceadded" style="display: block;" href="https://buy.stripe.com/9AQ9CT7kG9hi8Ra9AI" target="_blank">Book me here <span class="pricechange">$40</span></a>
 						
 					</div>
 					
@@ -229,12 +234,15 @@
         $("#dollarTen").click(function () {
         	$(this).addClass('active');
         	$("#dollarFive").removeClass('active')
-            $("span.pricechange").text("$10,000");
+            $("span.pricechange").text("$1000");
+            $("#Priceadded").attr('href', 'https://buy.stripe.com/28og1hgVgfFGffybIR');
+            
       	})
       	$("#dollarFive").click(function () {
       		$(this).addClass('active');
         	$("#dollarTen").removeClass('active')
-            $("span.pricechange").text("$550");
+            $("span.pricechange").text("$40");
+            $("#Priceadded").attr('href', 'https://buy.stripe.com/9AQ9CT7kG9hi8Ra9AI');
       	})
     });
 
