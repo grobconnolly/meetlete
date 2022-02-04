@@ -1271,10 +1271,13 @@ video#jeohome {
         padding-top: 0;
     }
     video.reggie-video {
-        height: 350px;
+        height: 300px;
         max-width: 100%;
     }
     .col-md-5.hero-content.hero-content-reggie {
         padding-top: 0;
+    }
+    .col-md-5.hero-content.hero-content-reggie h1{
+            margin-bottom: 10px;
     }
 }
