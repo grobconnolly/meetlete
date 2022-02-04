@@ -841,6 +841,11 @@ body .cta-content3 .meetbutton {
     font-size: 14px;
     line-height: 20px;
 }
+.chose-option h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
 .chose-option ul li h4 {
     font-weight: 700;
     color: #333333;
