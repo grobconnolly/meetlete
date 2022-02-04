@@ -813,6 +813,56 @@ body .cta-content3 .meetbutton {
     text-transform: none;
     border: 2px solid #fff;
 }
+/*===========Reggie brooks style =====================*/
+.hero-content.hero-content-reggie p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.chose-option ul {
+    padding: 0;
+    margin: 20px 0 0;
+}
+.chose-option ul li {
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    background: #F2FFFB;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.chose-option ul li.active{
+    border-color: #009EBE;
+}
+.hero-content.hero-content-reggie .chose-option ul li p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.chose-option ul li h4 {
+    font-weight: 700;
+    color: #333333;
+}
+.chose-option ul li h4 span {
+    float: right;
+    font-size: 16px;
+    color: #009EBE;
+}
+
+.rating h5 {
+    font-size: 11px;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.rating h5 img {
+    margin-top: -2px;
+}
+.rating h5 span {
+    color: #009EBE;
+    text-decoration: underline;
+}
 /*=========== footer area =====================*/
 .footer-area  address{
     font-style: normal;
