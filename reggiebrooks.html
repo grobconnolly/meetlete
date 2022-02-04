@@ -90,23 +90,44 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 hero-small talent-small text-center">
+					<div class="visible-xs reggiemb">
+
+						<div class="rating">
+							<h5><img src="images/Star.png" alt="Rating" width="12"> 5.0  <span>7 Reviews</span></h5>
+						</div>
+						
+						<h1>
+							  <span>Reggie Brooks</span> <br>
+							  <small style="font-size: 16px;font-weight: 600;display:block;line-height: 20px ">Notre Dame | Washington Football Team <br>
+							</small>
+
+							  
+						</h1>
+
+					</div>
 					<video class="reggie-video" width="400" height="600"  playsinline poster="./images/reggie.jpg"  loop="2" controls="">
 					<source src="images/ReggieBrooks.mp4" type="video/mp4">
 					</video>
 					
 				</div>
 				<div class="col-md-5 hero-content hero-content-reggie">
-					<div class="rating">
-						<h5><img src="images/Star.png" alt="Rating" width="12"> 5.0  <span>7 Reviews</span></h5>
-					</div>
 					
-					<h1>
-						  <span>Reggie Brooks</span> <br>
-						  <small style="font-size: 16px;font-weight: 600;display:block;line-height: 20px ">Notre Dame | Washington Football Team <br>
-						</small>
+					<div class="visible-lg">
 
-						  
-					</h1>
+						<div class="rating">
+							<h5><img src="images/Star.png" alt="Rating" width="12"> 5.0  <span>7 Reviews</span></h5>
+						</div>
+						
+						<h1>
+							  <span>Reggie Brooks</span> <br>
+							  <small style="font-size: 16px;font-weight: 600;display:block;line-height: 20px ">Notre Dame | Washington Football Team <br>
+							</small>
+
+							  
+						</h1>
+
+					</div>
+
 					<div class="visible-lg">
 						<p><img src="images/handheart.png" alt=""> Portion of proceeds benefiting: Holtz’s Heroes Foundation</p>
 					
@@ -123,7 +144,7 @@
 								  <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
 								  <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
 								</svg>
-									Meetlete Fan Call <span>$40</span></h4>
+									Meetlete Call <span>$40</span></h4>
 								<p>1-on-1, 4-minute virtual meet and greet for you or someone else.</p>
 							</li>
 							<li id="dollarTen">
@@ -132,13 +153,25 @@
 									  <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
 									  <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
 									</svg>
-									For business <span>$1000</span></h4>
+									Meetlete business <span>$1000</span></h4>
 								<p>Video call for your business purposes, customers, employees, or marketing.</p>
+							</li>
+							<li id="dollarThree">
+								<h4>
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+									  <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+									  <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+									</svg>
+									Meetlete Gram <span>$30</span></h4>
+									<p>Recorded video greeting from Reggie Brooks sent to your phone.</p>
 							</li>
 						</ul>
 					</div>
 					<div class="btngroup-small ">
-						<a class="meetbutton" id="Priceadded" style="display: block;" href="https://buy.stripe.com/9AQ9CT7kG9hi8Ra9AI" target="_blank">Book me here <span class="pricechange">$40</span></a>
+					<a class="meetbutton" id="Priceadded" style="display: block;" 
+						href="https://buy.stripe.com/5kA16nfRc3WYaZi7sD" target="_blank">
+						Book me here <span class="pricechange">$40</span>
+					</a>
 						
 					</div>
 					
@@ -224,16 +257,25 @@
 	$(document).ready(function () {
         $("#dollarTen").click(function () {
         	$(this).addClass('active');
-        	$("#dollarFive").removeClass('active')
+        	$("#dollarFive").removeClass('active');
+        	$("#dollarThree").removeClass('active');
             $("span.pricechange").text("$1000");
-            $("#Priceadded").attr('href', 'https://buy.stripe.com/28og1hgVgfFGffybIR');
+            $("#Priceadded").attr('href', 'https://buy.stripe.com/4gw8yPfRc8de9VedR2');
             
       	})
       	$("#dollarFive").click(function () {
       		$(this).addClass('active');
-        	$("#dollarTen").removeClass('active')
+        	$("#dollarTen").removeClass('active');
+        	$("#dollarThree").removeClass('active');
             $("span.pricechange").text("$40");
-            $("#Priceadded").attr('href', 'https://buy.stripe.com/9AQ9CT7kG9hi8Ra9AI');
+            $("#Priceadded").attr('href', 'https://buy.stripe.com/5kA16nfRc3WYaZi7sD');
+      	})
+      	$("#dollarThree").click(function () {
+      		$(this).addClass('active');
+        	$("#dollarTen").removeClass('active');
+        	$("#dollarFive").removeClass('active');
+            $("span.pricechange").text("$30");
+            $("#Priceadded").attr('href', 'https://buy.stripe.com/fZe16ndJ4fFG3wQ8wJ');
       	})
     });
 

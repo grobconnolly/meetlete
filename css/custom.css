@@ -1280,4 +1280,10 @@ video#jeohome {
     .col-md-5.hero-content.hero-content-reggie h1{
             margin-bottom: 10px;
     }
+    .reggiemb{
+        background: #fff;
+        padding: 6px 0px;
+        margin: 0 -15px;
+        margin-bottom: 15px;
+    }
 }
