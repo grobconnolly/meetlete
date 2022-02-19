@@ -989,7 +989,7 @@ body .cta-content3 .meetbutton {
     max-width: 400px;
     display: inline-block;
 }
-.boxaside h3{
+.boxaside h3,.Sectionseven h3{
     font-weight: bold;
     font-size: 28px;
     line-height: 140%;
@@ -998,7 +998,7 @@ body .cta-content3 .meetbutton {
 .boxaside .storeLink {
     margin-top: 20px;
 }
-.SectionThree h2,.Sectionfour h2,.Sectionsix h2{
+.SectionThree h2,.Sectionfour h2,.Sectionsix h2,.Sectionheading h2{
     font-size: 44px;
     font-weight: 700;
     line-height:57px;
@@ -1022,7 +1022,7 @@ body .cta-content3 .meetbutton {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.SectionThree p{
+.SectionThree p,.Sectionheading p,.Sectionseven p{
     font-size: 18px;
     line-height: 29px;
     color: #5A5A5A;
@@ -1091,6 +1091,28 @@ section.Sectionfive {
 section.Sectionsix{
     padding-top: 200px;
 }
+.Sectionheading h2 {
+    margin-bottom: 20px;
+}
+section.Sectionseven{
+    background:#009EBE;
+    background: linear-gradient(273.74deg, #009EBE 5.01%, #049C69 104.33%);
+}
+.Sectionseven p,.Sectionseven h3{
+    color:#fff;
+}
+.Sectionseven p{
+    margin-bottom:30px;
+}
+.Sectionseven h3{
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+.video-yt iframe {
+    border-radius: 24px;
+    overflow: hidden;
+}
+
 /*=========== footer area =====================*/
 .footer-area  address{
     font-style: normal;
