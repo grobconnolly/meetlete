@@ -6,6 +6,8 @@ $(window).scroll(function() {
         $('.top-bar').removeClass("top-nav-fixed");
     }
 });
+
+
 // jQuery - add active class to Bootstrap Accordion Heading
 
 if ($('#MTaccordion').length) {
