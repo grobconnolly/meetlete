@@ -998,7 +998,8 @@ body .cta-content3 .meetbutton {
 .boxaside .storeLink {
     margin-top: 20px;
 }
-.SectionThree h2,.Sectionfour h2,.Sectionsix h2,.Sectionheading h2{
+.SectionThree h2,.Sectionfour h2,
+.Sectionsix h2,.Sectionheading h2{
     font-size: 44px;
     font-weight: 700;
     line-height:57px;
@@ -1022,7 +1023,9 @@ body .cta-content3 .meetbutton {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.SectionThree p,.Sectionheading p,.Sectionseven p{
+.SectionThree p,
+.Sectionheading p,
+.Sectionseven p{
     font-size: 18px;
     line-height: 29px;
     color: #5A5A5A;
@@ -1039,7 +1042,8 @@ body .cta-content3 .meetbutton {
 section.SectionThree.meetleteGen {
     padding:0;
 }
-section.Sectionfour h4,.Sectionsix h5,.Sectionsix h4{
+section.Sectionfour h4,
+.Sectionsix h5,.Sectionsix h4{
     font-weight: 500;
     font-size: 23px;
     line-height: 32px;
@@ -1047,7 +1051,8 @@ section.Sectionfour h4,.Sectionsix h5,.Sectionsix h4{
     color: #404040;
     margin-bottom: 20px;
 }
-section.Sectionfour p,.Sectionsix p{
+section.Sectionfour p,
+.Sectionsix p{
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
