@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,p{
 img{
     max-width: 100%;
 }
-.novisible {
+/*.novisible {
   opacity: 0;
   transform: translate(0, 20vh);
     transition: opacity 0.45s ease-in-out;
@@ -28,7 +28,7 @@ img{
   -moz-transition: opacity 0.55s ease-in-out;
   -webkit-transition: opacity 0.55s ease-in-out;
 }
-
+*/
 .for-mb{
     display: none !important;
 }

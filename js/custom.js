@@ -44,7 +44,7 @@ if ($('#MTaccordion').length) {
 
 
 
-// scroll animation
+// scroll animation left,right 
 $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();
   var pageBottom = pageTop + $(window).height();
@@ -59,6 +59,23 @@ $(document).on("scroll", function() {
     } else {
       $(tag).removeClass("animate__fadeInLeft");
       $(tag).removeClass("animate__fadeInRight");
+    }
+  }
+});
+
+// scroll animation up
+$(document).on("scroll", function() {
+  var pageUp = $(document).scrollTop();
+  var pageBot = pageUp + $(window).height();
+  var tags = $(".anim2",this);
+
+  for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+
+    if ($(tag).position().top < pageBot) {
+      $('.upanim').addClass("animate__fadeInUp");
+    } else {
+      $(tag).removeClass("animate__fadeInUp");
     }
   }
 });
