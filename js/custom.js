@@ -48,15 +48,17 @@ if ($('#MTaccordion').length) {
 $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();
   var pageBottom = pageTop + $(window).height();
-  var tags = $(".novisible");
+  var tags = $(".anim",this);
 
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
 
     if ($(tag).position().top < pageBottom) {
-      $(tag).addClass("visible");
+      $('.leftanim').addClass("animate__fadeInLeft");
+      $('.rightanim').addClass("animate__fadeInRight");
     } else {
-      $(tag).removeClass("visible");
+      $(tag).removeClass("animate__fadeInLeft");
+      $(tag).removeClass("animate__fadeInRight");
     }
   }
 });
