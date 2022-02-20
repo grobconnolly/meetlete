@@ -62,5 +62,11 @@ $(document).on("scroll", function() {
 });
 
 
-
+$(function() {
+    $('.radiobox').click( function() {
+      $(this).addClass('active');
+        $(this).siblings().removeClass('active');
+        
+    });
+});
 
