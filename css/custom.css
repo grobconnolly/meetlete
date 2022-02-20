@@ -143,7 +143,8 @@ nav.mynav ul.navbar-nav li:hover ul.childmenu{
      display: block;
 }
 
-/*v1 nav*/
+/*===================== v1 nav =====================*/
+
 .headerNew nav.mynav ul.navbar-nav li a {
     font-weight: 700;
     color: #404040;
@@ -163,7 +164,7 @@ nav.mynav ul.navbar-nav li:hover ul.childmenu{
     padding-bottom: 10px;
     top: 0;
     z-index: 9;
-    transition: ease all 0.35s;
+    transition: top 0.3s;
 }
 .top-bar.headerNew nav.mynav{
     margin: 0;
@@ -174,12 +175,12 @@ nav.mynav ul.navbar-nav li:hover ul.childmenu{
 }
 .top-bar.headerNew.top-nav-fixed {
     background: rgba(255, 255, 255, 0.88);
-    /*box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);*/
-    box-shadow: none;
-    top: -100px;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
+    /*box-shadow: none;*/
+    /*top: -100px;*/
 }
 
-/*===========Header area =====================*/
+/*=========== Header area =====================*/
 
 .hero-banner {
     background-image: url(../images/VectorT.png);
@@ -956,7 +957,7 @@ body .cta-content3 .meetbutton {
     line-height: 28px;
     color: #333;
 }
-.SectionTwo p {
+.SectionTwo p,.newsCol p {
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -999,7 +1000,7 @@ body .cta-content3 .meetbutton {
     margin-top: 20px;
 }
 .SectionThree h2,.Sectionfour h2,
-.Sectionsix h2,.Sectionheading h2{
+.Sectionsix h2,.Sectionheading h2,.Sectionnine h3{
     font-size: 44px;
     font-weight: 700;
     line-height:57px;
@@ -1007,14 +1008,14 @@ body .cta-content3 .meetbutton {
     margin-bottom: 60px;
     text-align: center;
 }
-.SectionThree h3 {
+.SectionThree h3,.Sectionten h3 {
     font-size: 35px;
     font-weight: 700;
     line-height: 45px;
     color: #404040;
     margin-bottom: 15px;
 }
-.SectionThree h5{
+.SectionThree h5,.newsCol h4{
     font-weight: bold;
     font-size: 18px;
     line-height: 29px;
@@ -1025,7 +1026,7 @@ body .cta-content3 .meetbutton {
 }
 .SectionThree p,
 .Sectionheading p,
-.Sectionseven p{
+.Sectionseven p,.Sectionnine p{
     font-size: 18px;
     line-height: 29px;
     color: #5A5A5A;
@@ -1052,7 +1053,7 @@ section.Sectionfour h4,
     margin-bottom: 20px;
 }
 section.Sectionfour p,
-.Sectionsix p{
+.Sectionsix p,section.footerNew p,section.footerNew address{
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
@@ -1117,6 +1118,302 @@ section.Sectionseven{
     border-radius: 24px;
     overflow: hidden;
 }
+.newsCol {
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.newsCol h4 {
+    color: #404040;
+    text-transform: none;
+    margin-top: 14px;
+    height: 58px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+.newsCol p {
+    color: #5A5A5A; 
+    height: 65px;
+    margin: 0;
+   display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+.newsCol .cat span {
+    font-weight: 500;
+    font-size: 12px;
+    color: #9A9A9A;
+    line-height: 18px;
+    padding: 10px 10px 10px 0;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.newsCol .thumb {
+    height: 210px;
+    overflow: hidden;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+.newsCol .thumb img {
+    width: 100%;
+    max-width: none;
+}
+.newsColtxt {
+    padding: 24px;
+    margin-top: -10px;
+    border: 1px solid #D9D9D9;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.readmore{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    color: #404040;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.readmore:hover{
+    color: #404040;
+    text-decoration: none;
+}
+.newsTxt .btn {
+    border: 1.6px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+.newsTxt .btn{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Sectionnine h3{
+    text-align: left;
+    color:#059C69;
+    margin-bottom: 20px;
+}
+.formTxt .btn {
+    background: #059C69;
+    border-radius: 16px;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.formTxt .btn:hover{
+    color: #FFFFFF;
+}
+.form-meet form input, .form-meet form textarea{
+    font-style: normal;
+    font-weight: 300;
+   font-size: 18px;
+    line-height: 28px;
+    color: #9A9A9A;
+    border: 1px solid #9A9A9A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 53px;
+    padding:12px 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    resize:none;
+}
+.form-meet form  {
+    background: #FFFFFF;
+    box-shadow: 0px 51px 181px rgb(51 51 51 / 7%), 0px 15.375px 54.5662px rgb(51 51 51 / 5%), 0px 6.38599px 22.664px rgb(51 51 51 / 4%), 0px 2.30969px 8.19713px rgb(51 51 51 / 2%);
+    border-radius: 24px;
+    padding: 24px;
+    max-width: 580px;
+    float: right;
+    width: 100%;
+}
+.form-meet form textarea{
+    height: 128px;
+}
+.form-meet form label{
+    font-weight: normal;
+    font-size: 18px;
+    line-height:29px;
+    color: #404040;
+}
+.form-meet form input[type="submit"]{
+    background: #059C69;
+     border: 1px solid #059C69;
+    color:#fff;
+}
+.formTxt {
+    padding-top: 100px;
+}
+.form-meet form .radiobox{
+    margin-bottom: 20px;
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+.form-meet form .radiobox label input[type="radio"] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0px 12px 0px;
+    vertical-align: middle;
+    color:#059C69;
+}
+.form-meet form .radiobox label {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #9A9A9A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 12px 12px 12px 12px;
+    color:#9A9A9A;
+}
+.form-meet form .radiobox.active label{
+    border: 1px solid #059C69;
+    color: #404040;
+    background: #F5FBF9;
+}
+.form-meet form .radiobox input[type='radio']:after {
+        width: 24px;
+        height: 24px;
+        border-radius: 24px;
+        top: 0px;
+        left: 0px;
+        position: relative;
+        background-color: #fff;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid #9A9A9A;
+    }
+
+.form-meet form .radiobox input[type='radio']:checked:after {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    background-color: #059C69;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #059C69;
+}
+.grdeint- {
+    background: linear-gradient(95.59deg, #36AF85 0%, #17A5B3 100%);
+    border-radius: 24px;
+    padding: 48px;
+}
+.Sectionten h3 {
+    color: #fff;
+}
+.ctaImg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+section.Sectionten .grdeint-{
+    overflow: hidden;
+}
+/*=========== footer v1 =========== */
+section.footerNew {
+    padding: 64px 0;
+    background: #F0F0F0;
+}
+section.footerNew h4{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 39px;
+    color: #404040;
+    margin-bottom: 8px;
+}
+section.footerNew p,section.footerNew address{
+    text-align: left
+}
+section.footerNew ul{
+    padding: 0;
+}
+section.footerNew ul li{
+    display: inline-block;
+}
+section.footerNew ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height:29px;
+    color: #404040;
+    display: block;
+    padding: 10px 10px 10px 0;
+}
+.ftCol {
+    margin-bottom: 60px;
+}
+.newsletter {
+    margin-top: 20px;
+}
+.newsletter input {
+    border: 1px solid #9A9A9A;
+    box-sizing: border-box;
+    border-radius: 16px !important;
+    padding: 8px 24px;
+    height: 48px;
+    width: 93% !important;
+}
+.newsletter button.btn-default {
+    background: #059C69;
+    border-radius: 16px;
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    border: none;
+}
+.ftCol .btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #059C69;
+    border: 1px solid #059C69;
+    border-radius: 16px;
+    padding: 12px 34px 12px 24px;
+    margin-top: 20px;
+    background: url('../images/v1/arrowr.svg');
+    background: url(../images/v1/arrowr.svg);
+    background-position: 94% center;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+.socialBot{
+    text-align: right;
+}
+.socialBot a {
+    display: inline-block;
+    padding: 0 10px;
+}
+.socialBot a:last-child {
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
 
 /*=========== footer area =====================*/
 .footer-area  address{
@@ -1151,6 +1448,7 @@ section.Sectionseven{
 section.hero-data.hero-banner.milton {
     padding-bottom: 80px;
 }
+
 /*======================================      term css     ===========================*/
 section.term-area.meetlete-section div.row{
     max-width: 900px;
@@ -1181,6 +1479,9 @@ section.term-area.meetlete-section .container div a span {
     }
     section.SectionTwo.meetleteGen{
         text-align: center;
+    }
+    .newsTxt .btn {
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -1442,7 +1743,95 @@ video#jeohome {
     margin-top: 0;
 }
 
+/* v1 style*/
+.headerNew nav.mynav.navbar-default .navbar-toggle .icon-bar{
+    background: #404040;
 }
+.headerNew nav.mynav.navbar-default button.navbar-toggle.collapsed{
+    background-image: url(../images/v1/hamb.svg);
+    background-size: 45px;     
+}
+.headerNew nav.mynav.navbar-default button.navbar-toggle{
+     background-image: url(../images/closeit.png);
+     background-size: 30px;
+}
+.top-bar.headerNew{
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
+    top:0;
+}
+.SectionOne h1,section.Sectionfive h3 {
+    font-size: 35px;
+    line-height: 120%;
+    margin-top: 25px;
+}
+.SectionTwo h2,.Sectionfour h2,.Sectionsix h2,.Sectionheading h2 {
+    font-size: 28px;
+    line-height: 39px;
+}
+.SectionTwo h4,.SectionTwo p,.boxaside .storeLink,
+.Sectionfour h2,section.Sectionfour h4,section.Sectionfour p{
+    text-align: left;
+}
+.boxaside {
+    border-radius: 16px;
+    padding: 24px;
+}
+.boxaside h3,.SectionThree h3 {
+    font-size: 23px;
+    line-height: 32px;
+    text-align: left;
+}
+section.Sectionten .grdeint- {
+    padding: 24px;
+}
+.ctaImg {
+    display: none;
+}
+.Sectionten h3{
+    font-size: 18px;
+    line-height: 28px;
+}
+.optiontxt.optiontxt3 {
+    padding-top: 30px;
+}
+.optiontxt {
+    padding-top: 30px;
+}
+.Sectionfour .row{
+    text-align: left !important;
+}
+.Sectionfour h2{
+    margin-bottom: 10px;
+}
+section.Sectionfive.meetleteGen {
+    background: linear-gradient(273.74deg, #009EBE 5.01%, #049C69 104.33%) !important;
+    min-height: auto;
+}
+.newsTxt .btn {
+    font-size: 14px;
+    padding: 9px;
+}
+.video-yt.pull-right {
+    float: none !important;
+}
+.form-meet {
+    padding: 0;
+    margin-top: 50px;
+}
+.form-meet form{
+    padding: 16px;
+}
+.form-meet form .radiobox{
+    padding: 0 5px;
+}
+.form-meet form .radiobox label {
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+}
+
+/* start 560px*/
 
 @media screen and (max-width: 560px) {
 

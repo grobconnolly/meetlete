@@ -1,13 +1,24 @@
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".top-bar").offset().top > 50) {
+    if ($(".top-bar").offset().top > 150) {
         $('.top-bar').addClass("top-nav-fixed");
     } else {
         $('.top-bar').removeClass("top-nav-fixed");
     }
 });
 
+//javascript to show/hide the navbar on scroll
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("headerNew").style.top = "0";
+  } else {
+    document.getElementById("headerNew").style.top = "-150px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 // jQuery - add active class to Bootstrap Accordion Heading
 
 if ($('#MTaccordion').length) {
@@ -49,5 +60,7 @@ $(document).on("scroll", function() {
     }
   }
 });
+
+
 
 
