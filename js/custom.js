@@ -43,7 +43,7 @@ if ($('#MTaccordion').length) {
 }
 
 
-
+/*
 // scroll animation left,right 
 $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();
@@ -62,6 +62,7 @@ $(document).on("scroll", function() {
     }
   }
 });
+*/
 
 // scroll animation up
 $(document).on("scroll", function() {
