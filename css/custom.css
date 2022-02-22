@@ -1517,6 +1517,7 @@ nav.mynav {
 }
 .top-bar.headerNew  li.for-mb.socialtop a{
     display: inline-block;
+    margin-right: 0;
 }
 .hero-small {
     float: none;
@@ -1673,13 +1674,13 @@ nav.mynav .navbar-collapse {
     padding: 0;
     position: absolute;
     background: #fff;
-    width: 100%;
+    width: 110%;
     box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
     border-radius: 0px 0px 45px 45px;
     padding-bottom: 30px;
     border: none;
     top: 66px;
-    left: auto;
+    left: -15px;
     right: auto;
 }
 
