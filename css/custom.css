@@ -1831,6 +1831,13 @@ section.Sectionfive.meetleteGen {
 .form-meet form .radiobox input[type='radio']:after{
     display: none !important;
 }
+.SectionTwo .team{
+    width: 170px;
+}
+.top-bar.headerNew {
+    position: fixed;
+    top: 0 !important;
+}
 
 }
 
