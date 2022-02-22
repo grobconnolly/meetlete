@@ -1803,6 +1803,7 @@ section.Sectionten .grdeint- {
 }
 .Sectionfour h2{
     margin-bottom: 10px;
+    margin-top: 60px;
 }
 section.Sectionfive.meetleteGen {
     background: linear-gradient(273.74deg, #009EBE 5.01%, #049C69 104.33%) !important;
@@ -1838,6 +1839,44 @@ section.Sectionfive.meetleteGen {
 .top-bar.headerNew {
     position: fixed;
     top: 0 !important;
+}
+section.Sectionfour h4, .Sectionsix h5, .Sectionsix h4 {
+    font-size: 18px;
+    line-height: 28px;
+}
+section.Sectionfour p,
+.Sectionsix p, section.footerNew p,
+section.footerNew address {
+    font-size: 14px;
+    line-height: 18px;
+}
+.Sectionsix h4 {
+    margin-bottom: 10px;
+}
+.Sectionsix p {
+    margin-bottom: 30px;
+}
+.formTxt {
+    padding-top: 0px;
+}
+.Sectionnine h3 {
+    font-size: 28px;
+    line-height: 39px;
+}
+.SectionThree p, .Sectionheading p, .Sectionseven p, .Sectionnine p {
+    font-size: 14px;
+    line-height: 22px;
+}
+section.footerNew h4 {
+    font-size: 23px;
+    line-height: 32px;
+}
+section.Sectionfour .row div {
+    margin-top: 0;
+}
+section.Sectionten.meetleteGen {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 }
