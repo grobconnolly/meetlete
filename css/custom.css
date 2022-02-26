@@ -145,7 +145,38 @@ nav.mynav ul.navbar-nav li:hover ul.childmenu{
 
 /*===================== v1 nav =====================*/
 
-.headerNew nav.mynav ul.navbar-nav li a {
+/*media nav*/
+@media (min-width: 768px) {
+  
+.bg-transparent.headerNew nav.mynav ul.navbar-nav li a{
+    color: #fff;
+}
+.bg-transparent.headerNew .logo{
+    display: none;
+}
+.bg-transparent.headerNew .logo.transparentLogo{
+    display: block;
+}
+.bg-transparent.headerNew.top-nav-fixed .logo{
+    display: block;
+}
+.bg-transparent.headerNew.top-nav-fixed .transparentLogo.logo{
+    display: none;
+}
+.bg-transparent.headerNew.top-nav-fixed .socialtop a {
+    background: linear-gradient(95.59deg, #36AF85 0%, #17A5B3 100%);
+    border-radius: 4px;
+    padding: 4px;
+}
+.bg-transparent.top-nav-fixed nav.mynav ul.navbar-nav li a{
+     color: #404040;
+}
+
+}
+
+/*media end*/
+
+.headerNew nav.mynav ul.navbar-nav li a{
     font-weight: 700;
     color: #404040;
     font-size: 18px;
@@ -173,12 +204,22 @@ nav.mynav ul.navbar-nav li:hover ul.childmenu{
     padding: 10px 0;
     margin-right: 50px;
 }
+.bg-transparent.headerNew .transparentLogo{
+    display: none;
+}
+
 .top-bar.headerNew.top-nav-fixed {
     background: rgba(255, 255, 255, 0.88);
     box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
     /*box-shadow: none;*/
     /*top: -100px;*/
 }
+
+.bg-transparent.headerNew {
+    background: transparent;
+    backdrop-filter: none;
+}
+
 
 /*=========== Header area =====================*/
 
@@ -1356,6 +1397,37 @@ section.teamMeet h2 {
     box-shadow: 0px 30.1471px 58.1838px rgba(51, 51, 51, 0.0651589), 0px 12.5216px 24.1666px rgba(51, 51, 51, 0.05), 0px 4.5288px 8.74058px rgba(51, 51, 51, 0.0348411);
     border-radius: 24px;
 }
+section.aboutNew {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.aboutNew h1 {
+    color: #fff;
+    line-height: 57px;
+    font-size: 44px;
+}
+section.aboutNew p{
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 32px;
+    color: #F0F0F0;
+}
+
+section.aboutNew .Onetext .btn {
+    border: 1.6px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+
 /*=========== footer v1 =========== */
 section.footerNew {
     padding: 64px 0;
@@ -1490,6 +1562,8 @@ section.term-area.meetlete-section .container div a span {
 }
 
 /*======================================        Mobile responsive css     ===========================*/
+
+
 
 @media screen and (max-width: 1080px) {
     nav.mynav ul.navbar-nav li a{
