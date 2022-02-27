@@ -1381,6 +1381,9 @@ section.Sectionseven{
     height: 100%;
     width: 50%;
 }
+.ctaImg img {
+    height: 100%;
+}
 section.Sectionten .grdeint-{
     overflow: hidden;
 }
@@ -1427,6 +1430,9 @@ section.aboutNew .Onetext .btn {
     color: #FFFFFF;
     margin-top: 50px;
     padding: 10px 20px;
+}
+.Newaboutus .SectionThree.meetleteGen {
+    padding: 0 0 80px 0;
 }
 
 /*=========== footer v1 =========== */
@@ -1860,7 +1866,9 @@ video#jeohome {
     line-height: 120%;
     margin-top: 25px;
 }
-.SectionTwo h2,.Sectionfour h2,.Sectionsix h2,.Sectionheading h2 {
+.SectionTwo h2,.Sectionfour h2,
+.Sectionsix h2,.Sectionheading h2,section.aboutNew h1,
+.SectionThree h2 {
     font-size: 28px;
     line-height: 39px;
 }
@@ -1883,12 +1891,12 @@ section.Sectionten .grdeint- {
 .ctaImg {
     display: none;
 }
-.Sectionten h3{
+.Sectionten h3,section.aboutNew p,.teaminNew h4{
     font-size: 18px;
     line-height: 28px;
 }
 .optiontxt.optiontxt3 {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 .optiontxt {
     padding-top: 30px;
@@ -1941,7 +1949,7 @@ section.Sectionfour h4, .Sectionsix h5, .Sectionsix h4 {
 }
 section.Sectionfour p,
 .Sectionsix p, section.footerNew p,
-section.footerNew address {
+section.footerNew address,section.Sectionfive p,.teaminNew h4{
     font-size: 14px;
     line-height: 18px;
 }
@@ -1954,6 +1962,11 @@ section.footerNew address {
 .formTxt {
     padding-top: 0px;
 }
+.Newaboutus section.Sectionfive.meetleteGen {
+    margin-top: 80px;
+    background-image: url(../images/v1/mbbgabout.png) !important;
+    min-height: 492px;
+}
 .Sectionnine h3 {
     font-size: 28px;
     line-height: 39px;
@@ -1962,7 +1975,7 @@ section.footerNew address {
     font-size: 14px;
     line-height: 22px;
 }
-section.footerNew h4 {
+section.footerNew h4,.newquestions h2 {
     font-size: 23px;
     line-height: 32px;
 }
@@ -1972,6 +1985,9 @@ section.Sectionfour .row div {
 section.Sectionten.meetleteGen {
     padding-left: 15px;
     padding-right: 15px;
+}
+.storeLink {
+    margin-bottom: 40px;
 }
 
 }
