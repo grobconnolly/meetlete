@@ -1967,6 +1967,9 @@ section.footerNew address,section.Sectionfive p,.teaminNew h4{
     background-image: url(../images/v1/mbbgabout.png) !important;
     min-height: 492px;
 }
+section.SectionOne.meetleteGen.aboutNew {
+    background-image: url(../images/v1/about-mb.png) !important;
+}
 .Sectionnine h3 {
     font-size: 28px;
     line-height: 39px;
